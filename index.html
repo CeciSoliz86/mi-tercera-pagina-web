@@ -3,48 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo CSS aquí -->
+    <style>
+   /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFC0CB;
+}
+
+header {
+    text-align: center;
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Estilos de proyectos */
+.proyecto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #a04d4d;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* Estilos de habilidades */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Estilos de contacto */
+a {
+    color: #00ff7b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+    </style>
+
 </head>
 <body>
+    <!-- Sección de encabezado -->
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <img src="https://media.istockphoto.com/id/169969494/pt/foto/nutri%C3%A7%C3%A3o-de-cereais.jpg?s=612x612&w=is&k=20&c=3FSozeFGfRtalFh5Bqz0VmEqsVeoy_ztbgYPc8sXd6c=" alt="Texto alternativo de la imagen" width="300" height="200">
+        <h1>¡Hola! Soy Cecilia Soliz</h1>
+        <p>Nutricionista Dietista</p>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#acerca-de">Acerca de Mí</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-
-    <section id="inicio">
-        <h2>Sección de Inicio</h2>
-        <p>Bienvenido a mi sitio web. Esto es la sección de inicio.</p>
-    </section>
-
+    <!-- Sección "Acerca de Mí" -->
     <section id="acerca-de">
         <h2>Acerca de Mí</h2>
-        <p>Soy un apasionado por la tecnología y el desarrollo web.</p>
+        <p>Apasionada nutricionista dietista con más de una década de experiencia en la industria alimentaria. Mi pasión por la nutrición va más allá de los números en una etiqueta; se trata de empoderar a las personas para que tomen decisiones saludables y cambien sus vidas a través de la alimentación.</p>
     </section>
 
-    <section id="servicios">
-        <h2>Servicios</h2>
+    <!-- Sección "Proyectos" -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2.</p>
+        </div>
+    </section>
+
+    <!-- Sección "Habilidades" -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
         <ul>
-            <li>Diseño web</li>
-            <li>Desarrollo de aplicaciones</li>
-            <li>Consultoría en tecnología</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
         </ul>
     </section>
 
+    <!-- Sección "Contacto" -->
     <section id="contacto">
         <h2>Contacto</h2>
         <p>Puedes contactarme en <a href="mailto:correo@example.com">correo@example.com</a>.</p>
     </section>
 
+    <!-- Sección de pie de página -->
     <footer>
-        <p>&copy; 2023 Mi Página Web</p>
+        <p>&copy; 2023 Mi Portafolio</p>
     </footer>
 </body>
 </html>
+
